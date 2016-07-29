@@ -7,6 +7,6 @@ describe('add function', function() {
   });
 
   it('should return 3', function() {
-    expect(app.add(1, 1)).to.equal(3);
+    expect(app.add(1, 2)).to.equal(3);
   });
 });
